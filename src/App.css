@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  height: 100vh;
+  color: #171810;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 100px;
+  background-color: #00ffff;
+}
+
+.navMenu {
+  padding: 30px;
+  width: 10%;
+  background-color: #00ffff;
+  margin-top: 110px;
+  height: 100vh;
+}
+
+.teaBlock {
+  height: 100vh;
+  margin-top: 110px;
+  width: 90%;
+}
+
+.teaTitle {
+  text-align: center;
+}
+
+.varietyBlock {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.varietyImg {
+  width: 600px;
+}
+
+.teaVarietyBlock {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.teaImg {
+  height: 600px;
+  width: 600px;
+}
