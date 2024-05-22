@@ -36,7 +36,7 @@ export const puerArr: PuerPropsType[] = [
 
 export const Puer = () => {
   return (
-    <div>
+    <div className="teaBlock">
       <h2 className="teaTitle">Пуэр</h2>
       <p>
         <b>Пуэр</b> - постферментированный чай. Отличается специфической
