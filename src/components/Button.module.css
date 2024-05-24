@@ -22,8 +22,9 @@
 }
 
 .mainColor {
+  border: 2px white solid;
   background-color: #00ffff;
-  color: black;
+  color: white;
 }
 
 .secondaryColor {

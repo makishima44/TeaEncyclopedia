@@ -3,6 +3,7 @@ import { Oolong } from "./Oolong";
 import { Puer } from "./Puer";
 import { RedTea } from "./RedTea";
 import { Variety } from "./Variety";
+import { Button } from "./Button";
 
 type Props = {};
 export const TeaBlock = (props: Props) => {

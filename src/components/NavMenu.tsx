@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+
 type Props = {};
 export const NavMenu = (props: Props) => {
   return (

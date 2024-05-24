@@ -4,9 +4,10 @@ type ButtonPropsType = {
   name: string;
   size: "small" | "medium" | "big";
   color: "main" | "secondary";
+  onClick?: () => void;
 };
 
-export const Button = ({ name, size, color }: ButtonPropsType) => {
+export const Button = ({ name, size, color, onClick }: ButtonPropsType) => {
   let sizeButton = "";
   let colorButton = "";
   //----------------------------------------------------------------------//
@@ -38,5 +39,9 @@ export const Button = ({ name, size, color }: ButtonPropsType) => {
 
   const FinalStyleButton = `${s.button} ${sizeButton} ${colorButton}`;
 
-  return <button className={FinalStyleButton}>{name}</button>;
+  return (
+    <button onClick={onClick} className={FinalStyleButton}>
+      {name}
+    </button>
+  );
 };

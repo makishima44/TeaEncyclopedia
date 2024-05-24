@@ -2,6 +2,7 @@
   display: flex;
   height: 100vh;
   color: #171810;
+  padding-top: 100px;
 }
 
 .header {
@@ -18,13 +19,14 @@
   padding: 30px;
   width: 10%;
   background-color: #00ffff;
-  margin-top: 110px;
+  margin-top: 10px;
   height: 100vh;
 }
 
 .teaBlock {
   height: 100vh;
-  margin-top: 110px;
+  padding: 10px 40px;
+
   width: 90%;
 }
 
