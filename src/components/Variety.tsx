@@ -1,8 +1,13 @@
 import { useParams } from "react-router-dom";
-import { puerArr } from "./Puer";
+import { PuerPropsType } from "./Puer";
+import { useSelector } from "react-redux";
+import { RootStateType } from "../state/ReduxStore";
 type Props = {};
 
 export const Variety = (props: Props) => {
+  const puerArr = useSelector<RootStateType, Array<PuerPropsType>>(
+    (state) => state.puer
+  );
   const params = useParams();
   const currentVariety = puerArr.find((el) => el.id === Number(params.id));
   return (
