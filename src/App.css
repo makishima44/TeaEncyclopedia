@@ -7,12 +7,15 @@
 
 .header {
   position: absolute;
+  padding: 0 20px;
   top: 0;
   left: 0;
   right: 0;
-  text-align: center;
   height: 100px;
   background-color: #00ffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navMenu {

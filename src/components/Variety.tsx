@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
-import { PuerPropsType } from "./Puer";
 import { useSelector } from "react-redux";
 import { RootStateType } from "../state/ReduxStore";
+import { PuerPropsType } from "../state/puerTea-reducer";
 type Props = {};
 
 export const Variety = (props: Props) => {

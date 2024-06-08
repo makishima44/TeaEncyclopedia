@@ -1,19 +1,13 @@
 import { Link } from "react-router-dom";
-
 import { useSelector } from "react-redux";
 import { RootStateType } from "../state/ReduxStore";
-
-export type PuerPropsType = {
-  id: number;
-  variety: string;
-  about: string;
-  image?: string;
-};
+import { PuerPropsType } from "../state/puerTea-reducer";
 
 export const Puer = () => {
   const puerArr = useSelector<RootStateType, Array<PuerPropsType>>(
     (state) => state.puer
   );
+
   const generalDescription = puerArr[0];
 
   return (

@@ -1,7 +1,14 @@
-import { PuerPropsType } from "../components/Puer";
+// import { PuerPropsType } from "../components/Puer";
 import shu from "./../assets/puer/shu.jpg";
 import shen from "./../assets/puer/shen.jpg";
 import laoChaTo from "./../assets/puer/laoChaTo.jpg";
+
+export type PuerPropsType = {
+  id: number;
+  variety: string;
+  about: string;
+  image?: string;
+};
 
 const initialState: Array<PuerPropsType> = [
   {
