@@ -27,7 +27,7 @@ export const Clock = () => {
   });
 
   return (
-    <div>
+    <div className="clockBlock">
       <div>{TimeFormatter.format(date)}</div>
       <div>{DayFormatter.format(date)}</div>
       <div>{MonthFormatter.format(date)}</div>

@@ -13,6 +13,9 @@ export const NavMenu = (props: Props) => {
       <div>
         <NavLink to={"/RedTea"}>Красный чай</NavLink>
       </div>
+      <div>
+        <NavLink to={"/LSTraining"}>Local Storage</NavLink>
+      </div>
     </div>
   );
 };
