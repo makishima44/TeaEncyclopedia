@@ -21,7 +21,7 @@ export const LocalStorageTraining = () => {
   };
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>LocalStoreTraining</h1>
+      <h1 style={{ textAlign: "center" }}>LocalStorageTraining</h1>
       <div className="LSBlock">
         <div style={{ display: "flex" }}>
           <Input

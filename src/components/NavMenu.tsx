@@ -14,7 +14,10 @@ export const NavMenu = (props: Props) => {
         <NavLink to={"/RedTea"}>Красный чай</NavLink>
       </div>
       <div>
-        <NavLink to={"/LSTraining"}>Local Storage</NavLink>
+        <NavLink to={"/LSTraining"}>Training_Local_Storage</NavLink>
+      </div>
+      <div>
+        <NavLink to={"/TRBlock"}>Training_Redux_Block</NavLink>
       </div>
     </div>
   );

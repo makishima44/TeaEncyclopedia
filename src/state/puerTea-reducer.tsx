@@ -40,6 +40,9 @@ const initialState: Array<PuerPropsType> = [
   },
 ];
 
+
+
+
 export const puerTeaReducer = (
   state: Array<PuerPropsType> = initialState,
   action: any
